@@ -32,6 +32,8 @@ The utility function `$D` is the only API that RxJS-Debug has.
 You can wrap an `Observable` with it and enable automated logging without any extra effort.
 
 ```typescript
+import { $D } from "rxjs-debug";
+
 // a simple observable
 const source = of(1);
 
